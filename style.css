@@ -175,16 +175,15 @@ header img{
     height: 0;
     overflow: hidden;
 }
-
 .access__content iframe,
 .access__content object,
 .access__content embed {
-position: absolute;
-top: 0;
-left: 8%;
-width: 84%;
-height: 100%;
-margin: 0 auto;
+    position: absolute;
+    top: 0;
+    left: 8%;
+    width: 84%;
+    height: 100%;
+    margin: 0 auto;
 }
 .info{
     width: 100%;
@@ -200,9 +199,9 @@ margin: 0 auto;
     align-items: flex-start;
 }
 .info__content__box{
-    width:40%;
+    width:45%;
     text-align: center;
-    font-size: 0.8rem;
+    font-size: 0.6rem;
 }
 .info__content__box--title{
     margin-bottom: 20px;
@@ -210,6 +209,9 @@ margin: 0 auto;
 }
 .info__content__box p{
     padding-bottom: 10px;
+}
+.info__content__box--title--attention{
+    font-size:0.4rem;
 }
 .footer{
     margin-top: 50px;
@@ -288,7 +290,11 @@ margin: 0 auto;
         padding-left:25%;
     }
     .info__content__box{
+        width:40%;
         font-size: 1.0rem;
+    }
+    .info__content__box--title--attention{
+        font-size:0.8rem;
     }
     .footer__content{
         padding: 20px 15%;
