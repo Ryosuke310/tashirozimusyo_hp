@@ -62,7 +62,7 @@ header img{
 }
 .mainmessage__text{
     margin-top: 50px;
-    padding:3%;
+    padding:6%;
     background-color: white;
 }
 .mainmessage__text--main{
@@ -258,6 +258,9 @@ header img{
     .mainmessage__text{
         width:40%;
         margin-top:0;
+    }
+    .mainmessage__text{
+        padding:3%;
     }
     .business__content--box{
         flex-basis: 26%;
