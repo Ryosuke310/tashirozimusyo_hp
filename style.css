@@ -3,11 +3,9 @@ body{
     font-size: 16px;
     font-family: "游ゴシック",  "游ゴシック体", YuGothic,"Yu Gothic";
 }
-
 header{
     padding:5px 5%;
 }
-
 h1{
     margin-bottom: 10px;
     font-size:1.5rem;
@@ -17,7 +15,6 @@ h2{
     font-size:1.2rem;
     font-weight: normal!important;
 }
-
 p{
     margin: 0;
 }
@@ -59,9 +56,6 @@ header img{
     align-items: center;
     flex-wrap: wrap;
     align-items: flex-start;
-}
-.mainmessage__image{
-    
 }
 .mainmessage__image__text{
     text-align: center;
