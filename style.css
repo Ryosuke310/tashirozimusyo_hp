@@ -57,6 +57,12 @@ header img{
     flex-wrap: wrap;
     align-items: flex-start;
 }
+.mainmessage__image{
+    width: 100%;
+}
+.mainmessage__image__img{
+    width: 100%;
+}
 .mainmessage__image__text{
     text-align: center;
 }
@@ -254,6 +260,12 @@ header img{
     .mainvisual__text{
         margin:100px 0 120px 0;
         font-size:1.6rem;
+    }
+    .mainmessage__image{
+        width: auto;
+    }
+    .mainmessage__image__img{
+        width: auto;
     }
     .mainmessage__text{
         width:40%;
