@@ -99,7 +99,7 @@ header img{
 .business__content--box--textbox{
     height: 50px;
     margin-top: 33px;
-    background-color: #000055;
+    background-color: #004564;
     color: white;
     font-size: 0.7rem;
     line-height: 50px;
@@ -125,8 +125,8 @@ header img{
     text-align: center;
 }
 .member__content{
-    padding-right:13%;
-    padding-left:13%;
+    padding-right:12.5%;
+    padding-left:12.5%;
     display:flex;
     justify-content: space-between;
     align-items: center;
