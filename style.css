@@ -90,6 +90,7 @@ header img{
 }
 .business__content--box{
     /*width:100%;*/
+    flex-basis: 100%;
     height:240px;
     margin-bottom: 50px;
     padding-top: 30px;
