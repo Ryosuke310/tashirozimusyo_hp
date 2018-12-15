@@ -1,7 +1,7 @@
 body{
     width:100%;
     font-size: 16px;
-    font-family: "游ゴシック", "游ゴシック体", YuGothic, "Yu Gothic", sans-serif;
+    font-family: "游ゴシック", "游ゴシック体", YuGothic, "Yu Gothic";
 }
 header{
     padding:5px 5%;
@@ -21,6 +21,10 @@ p{
 a[href^="tel"]{
     color:inherit;
     text-decoration:none;
+}
+a{
+    color: black;
+    text-decoration: none;
 }
 
 .address{
@@ -50,7 +54,7 @@ header img{
     padding: 30px 10%;
     background-size: cover;
     background-position: center;
-    background-image: url('./image/patter.png');
+    background-color:#F5F5F5;
     display:flex;
     justify-content: space-around;
     align-items: center;
@@ -110,13 +114,13 @@ header img{
     display: inline-block;
     padding: 0.8em 2.0em;
     text-decoration: none;
-    color: #000055;
-    border: solid 1px #000055;
+    color: #004564;
+    border: solid 1px #004564;
     border-radius: 3px;
     transition: .4s;
 }
 .square_btn:hover {
-    background: #000055;
+    background: #004564;
     color: white;
 }
 .member__title{
@@ -214,7 +218,7 @@ header img{
 }
 .footer{
     margin-top: 50px;
-    background-color: #EEEEEE
+    background-color: #F5F5F5;
 }
 .footer__content{
     padding: 20px 5%;
@@ -237,6 +241,23 @@ header img{
 .footer__content__box--title2{
     margin:15px 0 5px 0;
 }
+
+/*2ページ目*/
+.businessdetail__content{
+    margin:40px 0 0 0;
+}
+.businessdetail__content__title{
+    padding:10px 0;
+    background-color:#F5F5F5;
+    text-align: center;
+}
+.businessdetail__content__text{
+    width:70%;
+    margin: 20px auto;
+    text-align: left;
+}
+
+
 /*タブレット以上*/
 @media screen and (min-width:960px) {
     h1{
@@ -321,5 +342,8 @@ header img{
     .footer__content__box--title2{
     margin: 25px 0 5px 0;
     font-size:1.2rem;
+    }
+    .businessdetail__content__text{
+        width:50%;
     }
 }
