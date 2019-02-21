@@ -53,7 +53,7 @@ header img{
     top:0;
 }
 .parallax{
-    background-image: url("./image/s_mv02.png");
+    background-image: url("./image/mv02.jpg");
     background-attachment: fixed;
     /*background-size:cover;*/
     /*background-position:center top; */
@@ -80,6 +80,7 @@ header img{
     margin:145px 0 145px 0;
     text-align: center;
     font-size:1.2rem;
+    color:white;
 }
 .mainmessage{
     margin-top:180px;
@@ -363,7 +364,7 @@ header img{
     }
     .mainvisual__text{
         margin:250px 0 120px 0;
-        font-size:1.8rem;
+        font-size:2.5rem;
     }
     .mainmessage__image{
         width: 38.8%;
