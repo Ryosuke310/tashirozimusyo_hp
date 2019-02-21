@@ -224,6 +224,7 @@ header img{
     padding-top: 30px;
     height: 0;
     overflow: hidden;
+    filter:brightness(80%);
 }
 .access__content iframe,
 .access__content object,
@@ -361,7 +362,7 @@ header img{
     }
     .parallax{
     background-image: url("./image/pcmv02.jpg");
-    filter:brightness(90%);
+    /*filter:brightness(90%);*/
     }
     .mainmessage{
         margin-top:500px;
@@ -382,6 +383,10 @@ header img{
     }
     .mainmessage__text{
         padding:3%;
+    }
+    .business{
+        background: url("./image/serviceback.png") no-repeat;
+        background-position: 5px 40px;
     }
     .business__content::after{
         content: '';
