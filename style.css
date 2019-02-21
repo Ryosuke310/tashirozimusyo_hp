@@ -3,8 +3,12 @@ body{
     font-size: 16px;
     font-family: "游ゴシック", "游ゴシック体", YuGothic, "Yu Gothic";
 }
+*{
+   margin : 0;
+   padding : 0;
+}
 header{
-    padding:5px 5%;
+    padding:15px 5%;
 }
 h1{
     margin-bottom: 10px;
@@ -26,7 +30,6 @@ a{
     color: black;
     text-decoration: none;
 }
-
 .address{
     margin: 0;
     font-size:0.6rem;
@@ -42,6 +45,33 @@ header img{
 .header__container{
     margin-bottom: -5px;
 }
+.header__image{
+    width:100%;
+    position: fixed;
+    z-index: -1;
+    top:0;
+}
+.parallax{
+    background-image: url("./image/s_mv02.png");
+    background-attachment: fixed;
+    /*background-size:cover;*/
+    /*background-position:center top; */
+}
+
+/*.parallax::before {*/
+/*    position: fixed;*/
+/*    background-image: url("./image/s_mv02.png");*/
+/*    z-index: -1;*/
+/*    left: 0;*/
+/*    top: 0;*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    content: '';*/
+/*    background-repeat: no-repeat;*/
+/*    background-size: cover;*/
+/*    background-position: center top;*/
+/*}*/
+
 .mainvisual{
     margin:0 0 30px 0;
 }
@@ -51,6 +81,7 @@ header img{
     font-size:1.2rem;
 }
 .mainmessage{
+    margin-top:180px;
     padding: 30px 10%;
     background-size: cover;
     background-position: center;
@@ -60,6 +91,7 @@ header img{
     align-items: center;
     flex-wrap: wrap;
     align-items: flex-start;
+    
 }
 .mainmessage__image{
     width: 100%;
@@ -79,8 +111,11 @@ header img{
     margin-bottom: 20px;
     font-weight: bold;
 }
+.business{
+    background:white;
+}
 .business__title{
-    margin:80px 0 50px 0;
+    padding:80px 0 50px 0;
     text-align: center;
 }
 .business__content{
@@ -123,13 +158,16 @@ header img{
     background: #004564;
     color: white;
 }
+.member{
+    background-color: white;
+}
 .member__title{
-    margin:80px 0 50px 0;
+    padding:80px 0 50px 0;
     text-align: center;
 }
 .member__content{
-    padding-right:12.5%;
-    padding-left:12.5%;
+    padding-right:12%;
+    padding-left:12%;
     display:flex;
     justify-content: space-between;
     align-items: center;
@@ -149,9 +187,10 @@ header img{
 }
 .notice{
     text-align: center;
+    background-color: white
 }
 .notice__title{
-    margin-top: 30px;
+    padding-top: 30px;
     margin-bottom: 50px;
 }
 .notice__content{
@@ -167,8 +206,11 @@ header img{
 .first{
     border-top: solid 1px #FFDBC9;
 }
+.access{
+    background-color: white;
+}
 .access__title{
-    margin: 80px 0 50px 0;
+    padding: 80px 0 50px 0;
     text-align: center;
 }
 .access__content {
@@ -216,8 +258,19 @@ header img{
 .info__content__box--title--attention{
     font-size:0.4rem;
 }
+.gallery{
+    background-color: white;
+    padding-bottom: 60px;
+}
+.gallery__title{
+    padding: 60px 0 50px 0;
+    text-align: center;
+}
+.swiper-wrapper img{
+        width:100%;
+    }
 .footer{
-    margin-top: 50px;
+    /*padding-top: 10px;*/
     background-color: #F5F5F5;
 }
 .footer__content{
@@ -256,7 +309,25 @@ header img{
     margin: 20px auto;
     text-align: left;
 }
-
+.fadeInDown {
+ -webkit-animation-fill-mode:both;
+ -ms-animation-fill-mode:both;
+ animation-fill-mode:both;
+ -webkit-animation-duration:1s;
+ -ms-animation-duration:1s;
+ animation-duration:1s;
+ -webkit-animation-name: fadeInDown;
+ animation-name: fadeInDown;
+ visibility: visible !important;
+}
+@-webkit-keyframes fadeInDown {
+ 0% { opacity: 0; -webkit-transform: translateY(20px); }
+ 100% { opacity: 1; -webkit-transform: translateY(0); }
+}
+@keyframes fadeInDown {
+ 0% { opacity: 0; -webkit-transform: translateY(20px); -ms-transform: translateY(20px); transform: translateY(20px); }
+ 100% { opacity: 1; -webkit-transform: translateY(0); -ms-transform: translateY(0); transform: translateY(0); }
+}
 
 /*タブレット以上*/
 @media screen and (min-width:960px) {
@@ -277,15 +348,24 @@ header img{
     header img{
         width: 2%;
     }
+    .header__image{
+        margin-top: -600px;
+    }
+    .parallax{
+        background-size:cover;
+    }
+    .mainmessage{
+        margin-top:500px;
+    }
     .mainvisual__text{
-        margin:100px 0 120px 0;
+        margin:250px 0 120px 0;
         font-size:1.6rem;
     }
     .mainmessage__image{
-        width: auto;
+        width: 38.8%;
     }
     .mainmessage__image__img{
-        width: auto;
+        width: 100%;
     }
     .mainmessage__text{
         width:40%;
@@ -311,8 +391,8 @@ header img{
     .access__content iframe,
     .access__content object,
     .access__content embed {
-        left: 14%;
-        width: 72%;
+        left: 12%;
+        width: 76%;
         height: 70%;
     }
     .info{
@@ -328,6 +408,9 @@ header img{
     }
     .info__content__box--title--attention{
         font-size:0.8rem;
+    }
+    .gallery{
+        padding-bottom: 100px;
     }
     .footer__content{
         padding: 20px 15%;
@@ -346,4 +429,11 @@ header img{
     .businessdetail__content__text{
         width:50%;
     }
+    .swiper-container {
+    margin: 0 auto!important;
+    width:74%;
+    }
+    /*    .header__image{*/
+    /*    margin-top: -600px;*/
+    /*}*/
 }
