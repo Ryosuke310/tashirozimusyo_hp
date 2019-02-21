@@ -55,9 +55,10 @@ header img{
     top:0;
 }
 .parallax{
-    background-image: url("./image/mv02.jpg");
+    background: url("./image/mv02.jpg")no-repeat;
     background-attachment: fixed;
-    background-size:cover;
+    background-size:100% auto;
+    filter:brightness(85%);
     /*background-position:center top; */
 }
 
@@ -79,13 +80,14 @@ header img{
     margin:0 0 30px 0;
 }
 .mainvisual__text{
-    margin:145px 0 145px 0;
+    margin:80px 0 220px 0;
     text-align: center;
     font-size:1.2rem;
     color:white;
+    font-weight: bold;
 }
 .mainmessage{
-    margin-top:180px;
+    margin-top:110px;
     padding: 30px 10%;
     background-size: cover;
     background-position: center;
@@ -359,7 +361,8 @@ header img{
         margin-top: -600px;
     }
     .parallax{
-        background-size:cover;
+    background: url("./image/pcmv02.jpg")no-repeat;
+    filter:brightness(90%);
     }
     .mainmessage{
         margin-top:500px;
