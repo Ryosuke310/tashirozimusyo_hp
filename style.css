@@ -58,7 +58,7 @@ header img{
     background-image: url("./image/mv02.jpg");
     background-attachment: fixed;
     background-size:cover;
-    background-position:center top; 
+    /*background-position:center top; */
 }
 
 /*.parallax::before {*/
