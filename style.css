@@ -55,7 +55,7 @@ header img{
     top:0;
 }
 .parallax{
-    background: url("./image/mv02.png")no-repeat;
+    background-image: url("./image/mv02.png");
     background-attachment: fixed;
     background-size:100% auto;
     /*background-position:center top; */
@@ -360,7 +360,7 @@ header img{
         margin-top: -600px;
     }
     .parallax{
-    background: url("./image/pcmv02.jpg")no-repeat;
+    background-image: url("./image/pcmv02.jpg");
     filter:brightness(90%);
     }
     .mainmessage{
