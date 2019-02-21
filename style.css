@@ -10,11 +10,13 @@ body{
 }
 header{
     padding:15px 5%;
+    color: white;
 }
 h1{
     margin-bottom: 10px;
     font-size:1.5rem;
     font-weight: normal!important;
+    color: white;
 }
 h2{
     font-size:1.1rem;
@@ -55,8 +57,8 @@ header img{
 .parallax{
     background-image: url("./image/mv02.jpg");
     background-attachment: fixed;
-    /*background-size:cover;*/
-    /*background-position:center top; */
+    background-size:cover;
+    background-position:center top; 
 }
 
 /*.parallax::before {*/
