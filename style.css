@@ -55,10 +55,9 @@ header img{
     top:0;
 }
 .parallax{
-    background: url("./image/mv02.jpg")no-repeat;
+    background: url("./image/mv02.png")no-repeat;
     background-attachment: fixed;
     background-size:100% auto;
-    filter:brightness(85%);
     /*background-position:center top; */
 }
 
@@ -111,7 +110,7 @@ header img{
 .mainmessage__text{
     margin-top: 50px;
     padding:6%;
-    background-color: white;
+    background-color: white!important;
 }
 .mainmessage__text--main{
     margin-bottom: 20px;
