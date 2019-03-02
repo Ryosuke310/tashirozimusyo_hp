@@ -55,7 +55,7 @@ header img{
     top:0;
 }
 .parallax{
-    background-image: url("./image/S__6459228191.png");
+    background-image: url("./image/S__6459228191_sp.png");
     background-attachment: fixed;
     background-size:100% auto;
     /*background-position:center top; */
@@ -79,7 +79,7 @@ header img{
     margin:0 0 30px 0;
 }
 .mainvisual__text{
-    margin:80px 0 220px 0;
+    margin:80px 0 190px 0;
     text-align: center;
     font-size:1.2rem;
     color:white;
@@ -120,7 +120,7 @@ header img{
     background:white;
 }
 .business__title{
-    padding:120px 0 50px 0;
+    padding:50px 0 50px 0;
     text-align: center;
 }
 .business__content{
@@ -148,6 +148,7 @@ header img{
     line-height: 50px;
 }
 .business__content--button{
+    margin-bottom: 10px;
     text-align: center;
 }
 .square_btn {
@@ -167,7 +168,7 @@ header img{
     background-color: white;
 }
 .member__title{
-    padding:120px 0 50px 0;
+    padding:40px 0 50px 0;
     text-align: center;
 }
 .member__content{
@@ -195,7 +196,7 @@ header img{
     background-color: white
 }
 .notice__title{
-    padding-top: 120px;
+    padding-top: 50px;
     margin-bottom: 50px;
 }
 .notice__content{
@@ -215,7 +216,7 @@ header img{
     background-color: white;
 }
 .access__title{
-    padding: 120px 0 50px 0;
+    padding: 50px 0 50px 0;
     text-align: center;
 }
 .access__content {
@@ -269,7 +270,7 @@ header img{
     padding-bottom: 60px;
 }
 .gallery__title{
-    padding: 120px 0 50px 0;
+    padding: 50px 0 50px 0;
     text-align: center;
 }
 .swiper-wrapper img{
@@ -388,6 +389,9 @@ header img{
         background: url("./image/serviceback.png") no-repeat;
         background-position: 5px 40px;
     }
+    .business__title{
+        padding-top: 120px;
+    }
     .business__content::after{
         content: '';
         width: 26%;
@@ -398,9 +402,15 @@ header img{
     .member__content--box{
         flex-basis: 26%;
     }
+    .notice__title{
+        padding-top: 120px;
+    }
     .notice__content{
         padding-right:25%;
         padding-left:25%;
+    }
+    .access__title{
+        padding-top: 120px;
     }
     .access__content iframe,
     .access__content object,
@@ -411,6 +421,9 @@ header img{
     }
     .info{
         margin-top:-150px;
+    }
+    .info__title{
+        padding-top: 120px;
     }
     .info__content{
         padding-right:25%;
@@ -425,6 +438,9 @@ header img{
     }
     .gallery{
         padding-bottom: 100px;
+    }
+    .gallery__title{
+        padding-top: 120px;
     }
     .footer__content{
         padding: 20px 15%;
