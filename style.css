@@ -302,6 +302,13 @@ header img{
 }
 
 /*2ページ目*/
+.businessimage{
+    margin-top: 20px;
+    text-align: center;
+}
+.businessimage img{
+    width:100%;
+}
 .businessdetail__content{
     width:95%;
     margin:40px auto;
@@ -474,6 +481,10 @@ header img{
     font-size:1.2rem;
     }
     /*2ページ目*/
+    .businessimage img{
+        width:70%;
+        margin-top:80px;
+    }
     .businessdetail__content{
         width:70%;
     }
