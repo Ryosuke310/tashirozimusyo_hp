@@ -232,14 +232,13 @@ header img{
 .access__content embed {
     position: absolute;
     top: 0;
-    left: 8%;
-    width: 84%;
+    width: 100%;
     height: 100%;
     margin: 0 auto;
 }
 .info{
     width: 100%;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 .info__content{
     padding-right: 5%;
@@ -256,7 +255,7 @@ header img{
     font-size: 0.6rem;
 }
 .info__content__box--title{
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     border-bottom: solid 1px #FFDBC9;
 }
 .info__content__box p{
@@ -299,22 +298,40 @@ header img{
     font-size:0.8rem;
 }
 .footer__content__box--title2{
-    margin:15px 0 5px 0;
+    margin:5px 0 5px 0;
 }
 
 /*2ページ目*/
 .businessdetail__content{
-    margin:40px 0 0 0;
+    width:95%;
+    margin:40px auto;
+    border: solid 1px #cfcfcf;
+    box-shadow: 0 4px 0 #e5e5e5;
+}
+.outline{
+    background-color: #278bc3;
+    height: 10px;
+    margin-bottom: 20px;
 }
 .businessdetail__content__title{
     padding:10px 0;
-    background-color:#F5F5F5;
+    font-size:1.5rem;
     text-align: center;
 }
 .businessdetail__content__text{
-    width:70%;
-    margin: 20px auto;
+    margin: 20px 20px;
     text-align: left;
+}
+.businessdetail__content--wrap{
+    width:90%;
+    margin: 20px auto;
+    padding:20px 5px;
+    line-height: 30px;
+    background:#F5F5F5;
+    text-align: left;
+}
+.businessdetail__content--wrap img{
+    width: 4%;
 }
 .fadeInDown {
  -webkit-animation-fill-mode:both;
@@ -422,9 +439,6 @@ header img{
     .info{
         margin-top:-150px;
     }
-    .info__title{
-        padding-top: 120px;
-    }
     .info__content{
         padding-right:25%;
         padding-left:25%;
@@ -432,6 +446,9 @@ header img{
     .info__content__box{
         width:40%;
         font-size: 1.0rem;
+    }
+    .info__content__box--title{
+        
     }
     .info__content__box--title--attention{
         font-size:0.8rem;
@@ -456,8 +473,19 @@ header img{
     margin: 25px 0 5px 0;
     font-size:1.2rem;
     }
+    /*2ページ目*/
+    .businessdetail__content{
+        width:70%;
+    }
     .businessdetail__content__text{
-        width:50%;
+        padding: 30px 30px;
+    }
+    .businessdetail__content--wrap{
+        width:85%;
+        padding:20px 20px;
+    }
+    .businessdetail__content--wrap img{
+        width: 1.5%;
     }
     .swiper-container {
     margin: 0 auto!important;
