@@ -133,6 +133,7 @@ header img{
     line-height: 50px;
 }
 .business__content--button{
+    margin-top:30px;
     margin-bottom: 10px;
     text-align: center;
 }
@@ -488,7 +489,7 @@ header img{
     width:74%;
     }
     .carrer{
-        margin-top:120px;
+        margin-top:120px!important;
         padding-top: 120px!important;
     }
 }
@@ -718,12 +719,6 @@ Vertical Timeline - by CodyHouse.co
   color: #303e49;
 }
 
-.cd-timeline__content p,
-.cd-timeline__read-more,
-.cd-timeline__date {
-  font-size: 1.3rem;
-}
-
 .cd-timeline__content p {
   margin: 1em 0;
   line-height: 1.6;
@@ -753,17 +748,9 @@ Vertical Timeline - by CodyHouse.co
 
 @media only screen and (min-width: 768px) {
   .cd-timeline__content h2 {
-    font-size: 2rem;
-  }
-  .cd-timeline__content p {
-    font-size: 1.6rem;
-  }
-  .cd-timeline__read-more,
-  .cd-timeline__date {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
 }
-
 @media only screen and (min-width: 1170px) {
   .cd-timeline__content {
     margin-left: 0;
