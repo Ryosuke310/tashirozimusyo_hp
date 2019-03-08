@@ -193,10 +193,10 @@ header img{
 .notice__content__text p{
     padding: 10px 0;
     text-align: left;
-    border-bottom: solid 1px #FFDBC9;
+    border-bottom: solid 1px #F5F5F5;
 }
 .first{
-    border-top: solid 1px #FFDBC9;
+    border-top: solid 1px #F5F5F5;
 }
 .access{
     background-color: white;
@@ -242,7 +242,7 @@ header img{
 }
 .info__content__box--title{
     margin-bottom: 10px;
-    border-bottom: solid 1px #FFDBC9;
+    border-bottom: solid 1px #d7e4ed;
 }
 .info__content__box p{
     padding-bottom: 10px;
